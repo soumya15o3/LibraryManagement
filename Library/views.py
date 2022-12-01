@@ -7,10 +7,6 @@ from django.contrib import messages
 from datetime import datetime, date, timedelta
 # Create your views here.
 
-# class RegisteredStudentsForm(forms.ModelForm) :
-#     model = models.Student
-#     fields = []
-
 def login_view(request):
     return render(request, "Library/login.html")
 

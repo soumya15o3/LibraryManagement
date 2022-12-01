@@ -78,9 +78,6 @@
 
         .tables{
             margin-top: 50px;
-            /* justify-content: center; */
-            /* text-align: center; */
-            /* background-color: blue; */
         }
 
     </style>
@@ -119,36 +116,4 @@
             </div>
             {% endif %}
         </form>
-    
-    
-    
-<!-- </div>
-<h3 style="text-align: center; margin-top: 4px; border-top: 2px solid  black; padding-top: 20px;">Book Details</h3>
-<div class="tables">
-    <div class="col-md-6">
-        <table class="table table-striped bg-white">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Title</th>
-                    <th scope="col">ISBN</th>
-                    <th scope="col">Author</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for detail in details %}
-                <tr>
-                    <th scope="row">{{forloop.counter}}</th>
-                    <td>{{detail.title}}</td>
-                    <td>{{detail.isbn}}</td>
-                    <td>{{detail.author}}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-        {% if details|length == 0 %}
-        <p class="text-center p-2 mb-0 text-danger bg-white">NO data to display</p>
-        {% endif %}
-    </div>
-</div> -->
 {% endblock %}
